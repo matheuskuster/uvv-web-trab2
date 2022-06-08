@@ -41,9 +41,9 @@ async function signUp(e) {
     const data = await response.json();
     localStorage.setItem('user', JSON.stringify(data));
     if (data.type === 'refugee') {
-      window.location.href = '/dashboard/refugee';
+      window.location.href = '/uvv-web-trab2/dashboard/refugee';
     } else {
-      window.location.href = '/dashboard/anfitria';
+      window.location.href = '/uvv-web-trab2/dashboard/anfitria';
     }
   } else {
     const data = await response.json();
