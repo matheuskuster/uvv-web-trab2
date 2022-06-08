@@ -32,5 +32,5 @@ function populateMenu(menuElements) {
 
 function logout() {
   localStorage.removeItem('user');
-  window.location.href = '/';
+  window.location.href = '/uvv-web-trab2';
 }
