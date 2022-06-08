@@ -17,6 +17,17 @@ Sempre que é criado uma usuária anfitriã, uma moradia é criada junto e relac
 
 Por ser um protótipo, as informações são salvas em memória e, por ter hospedado o servidor no [Heroku](https://heroku.com), elas serão perdidas a cada 30 minutos sem utilização da aplicação.
 
+### Login
+Caso não queira criar conta, já existem duas criadas por padrão.
+
+#### Refugiada
+**Email**: marta@refugee.com <br/>
+**Senha**: 123456
+
+#### Anfitriã
+**Email**: maria@hostess.com<br/>
+**Senha**: 123456
+
 ### Tecnologias utilizadas
 Este projeto utiliza apenas HTML, JS e CSS no frontend. Foi utilizada uma biblioteca de classes CSS - [Tailwind](https://tailwindcss.com).
 
